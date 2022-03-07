@@ -10,6 +10,12 @@ namespace Lesson_3_homework
     {
         static void Main(string[] args)
         {
+            //Написать программу, выводящую введенную пользователем строку в обратном порядке(olleH вместо Hello).
+            {
+                char[] chars = { 'H', 'E', 'L', 'L', 'O' };
+                Array.Reverse(chars);
+                Console.WriteLine(chars);
+            }
         }
     }
 }
